@@ -1,0 +1,15 @@
+{
+	// Request to API endpoint to list segments
+	"url": "/segments/v1",              // Relative to base URL
+	"method": "GET",
+	"headers": {},                      // Additional HTTP headers
+	"qs": {
+		"limit": "{{parameters.limit}}",  // Query parameter for pagination
+		"offset": "{{parameters.offset}}" // Query parameter for offset
+	},
+
+	// Response handling
+	"response": {
+		"output": "{{body.segments}}"   // Return segments array from response
+	}
+}

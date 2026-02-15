@@ -1,0 +1,18 @@
+[
+	{
+		"name": "limit",
+		"type": "number",
+		"label": "Limit",
+		"help": "Maximum number of segments to return",
+		"default": 100,
+		"required": false
+	},
+	{
+		"name": "offset",
+		"type": "number",
+		"label": "Offset",
+		"help": "Number of segments to skip for pagination",
+		"default": 0,
+		"required": false
+	}
+]
